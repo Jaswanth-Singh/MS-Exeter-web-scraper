@@ -1,0 +1,52 @@
+<head>
+  <title>Skills Rank</title>
+</head>
+<style>
+  body {
+    background-color: #30d5c8;
+    text-align: center;
+  }
+  h1 {
+    text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
+  }
+  .table {
+    box-shadow: rgba(0, 0, 0, 0.35) 2px 2px 2px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 50%;
+    background-color: #ffffff;
+    border-collapse: collapse;
+    border-width: 6px;
+    border-color: #faebd7;
+    border-style: double;
+    color: black;
+    max-height: 0px;
+  }
+  .table .active {
+    max-height: 400px;
+  }
+  .table th,
+  .table td {
+    border-width: 6px;
+    border-color: #faebd7;
+    border-style: double;
+    padding: 5px;
+  }
+  .table thead {
+    background-color: antiquewhite;
+  }
+</style>
+<body>
+  <h1 class="headTxt">TOP 10 MOST NEEDED SKILLS</h1>
+  <table class="table">
+    <thead>
+      <tr>
+        <th>Rank</th>
+        <th>Skill</th>
+        <th>Needed By</th>
+      </tr>
+    </thead>
+    ${REPLACE}
+  </table>
+</body>
